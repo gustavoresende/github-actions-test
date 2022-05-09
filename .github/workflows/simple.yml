@@ -1,12 +1,11 @@
 name: Shell Commands
 on: [push]
-
 jobs:
     run-shell-command:
         runs-on: ubuntu-latest
         steps: 
             - name: echo a string
-              run: echo "Hello World"
+              run: echo "Hello World 2"
             - name: multiline script
               run: |
                 node -v
